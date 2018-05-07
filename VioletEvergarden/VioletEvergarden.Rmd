@@ -71,6 +71,10 @@ div.title {
 
 本稿は、第70回 Tokyo.R 『ベイズ・統計モデリング』 応用セッションへのエントリーです。応用セッションで紹介させていただいたベイズ統計モデリングの実践例を解説します。発表スライドは非公開ですが、本記事の方が情報量が多いため、その点どうかご容赦くださいませ。
 
+本稿で利用した解析スクリプト、stanファイル、一時保存データなどは、全て[**GitHub**](https://github.com/MrUnadon/ForReproducibility)に置いてあります。VioretEvargardenというフォルダです。再現実験やトレーニングにご活用くださいませ。
+
+
+
 # Topics
 
 1. ヴァイオレット・エヴァーガーデン(Violet Evergarden)
@@ -234,6 +238,11 @@ save(TidyAnime, file = "data/TidyAnime.Rdata")
 
 再現性のために.Rdataを共有します。
 
+.Rdataだけを必要とする場合は、下記からダウンロードし、読み込んでください。
+
+[**TidyAnime.Rdataのダウンロード先(うなどんGitHub)**](https://github.com/MrUnadon/ForReproducibility/blob/master/VioletEvergarden/data/TidyAnime.Rdata)
+
+
 #### データの確認
 
 保存したデータを読み込みます。
@@ -395,7 +404,7 @@ $\mu_{base}$が赤点(放送日)の翌日であり、それを$r$倍すること
 <CENTER>
 ![](figure/Next.jpg)
 
-</CENTER>
+</CENTER><font size = "2">[画像の出展http://violet-evergarden.jp/news/?id=44](http://violet-evergarden.jp/news/?id=44)
 
 これを見せられたら、いままでは公式アカウントをフォローする気にならなかったけれども、新作情報が知りたくてフォローする方も多かったと思われます。
 
