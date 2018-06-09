@@ -1,7 +1,7 @@
 ---
-title: "Twitter Trend Modeling for『Violet Evergarden』"
+title: "Twitter Trend Modeling for『Violet Evergarden』\n\nRとStanによるベイズ統計モデリングの実践例"
 author: "MrUnadon (Licenced cook)"
-navlink: "[Tokyo.R Special: Bayesian Stat-Modeling](https://twitter.com/TokyoRCommunity)"
+navlink: "[The 70th Tokyo.R](https://twitter.com/TokyoRCommunity)"
 og:
   type: "article"
   title: "opengraph title"
